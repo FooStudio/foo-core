@@ -1,0 +1,29 @@
+{
+  "name": "foo-core",
+  "description": "Foo() core JS libraries",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FooStudio/foo-core.git"
+  },
+  "homepage": "http://foostudio.mx",
+  "bugs": {
+    "url": "https://github.com/FooStudio/foo-core/issues"
+  },
+  "files": [
+    "dist",
+    "lib",
+    "foo.js"
+  ],
+  "main": "foo.js",
+  "license": "MIT",
+  "author": "Foo",
+  "keywords": [],
+  "scripts": {},
+  "mantainers": [
+    {
+      "name": "Ricardo Mendieta",
+      "email": "mendieta@foostudio.mx"
+    }
+  ]
+}
