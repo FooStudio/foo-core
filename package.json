@@ -1,7 +1,7 @@
 {
   "name": "foo-core",
   "description": "Foo() core JS libraries",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FooStudio/foo-core.git"
@@ -19,11 +19,50 @@
   "license": "MIT",
   "author": "Foo",
   "keywords": [],
-  "scripts": {},
+  "scripts": {
+    "build": "webpack --mode=build",
+    "dev": "webpack --progress --colors --watch --mode=dev"
+  },
   "mantainers": [
     {
       "name": "Ricardo Mendieta",
       "email": "mendieta@foostudio.mx"
     }
-  ]
+  ],
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.9.1",
+    "babel-eslint": "^6.0.4",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-react-transform": "^2.0.2",
+    "babel-plugin-transform-decorators": "^6.6.5",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-react-display-name": "^6.5.0",
+    "babel-plugin-transform-runtime": "^6.7.5",
+    "babel-polyfill": "^6.7.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-runtime": "^6.6.1",
+    "eslint": "^2.12.0",
+    "eslint-config-foo": "^1.2.0",
+    "eslint-loader": "^1.3.0",
+    "eslint-plugin-babel": "^3.2.0",
+    "eslint-plugin-react": "^4.3.0",
+    "html5-history-api": "^4.2.7",
+    "node-polyglot": "^2.0.0",
+    "page": "^1.7.1",
+    "pixi.js": "^3.0.11",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-transform-catch-errors": "^1.0.2",
+    "react-transform-hmr": "^1.0.4",
+    "redbox-react": "^1.2.3",
+    "signals": "^1.0.0",
+    "superagent": "^2.0.0",
+    "transform-loader": "^0.2.3",
+    "webpack": "^1.13.1",
+    "yargs": "^4.7.1"
+  }
 }
